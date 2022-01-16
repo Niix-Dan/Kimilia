@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Daniel-code15/Kimilia/issues"
   },
-  "homepage": "https://github.com/Daniel-code15/Kimilia#readme"
+  "homepage": "https://github.com/Daniel-code15/Kimilia#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "pixapi": "^1.1.8"
+  }
 }
