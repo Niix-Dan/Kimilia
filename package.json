@@ -4,7 +4,8 @@
   "description": "Kimilia, Uma bot incrivel com muitos comandos para seu servidor do discord.",
   "main": "index.js",
   "scripts": {
-    "test": "node ."
+    "test": "node .",
+    "publish": "publish.bat"
   },
   "repository": {
     "type": "git",
