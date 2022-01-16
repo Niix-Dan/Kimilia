@@ -16,7 +16,6 @@ module.exports = async (client, message) => {
             message.reply("> Desculpe, um erro interno aconteceu. Meus desenvolvedores foram informados!");
             let errsCh = client.channels.cache.get("932136692524122123");
             errsCh.send("Erro no comando: "+cmd+"\n```bash\n"+err.stack+"\n```");
-            console.log("Um erro ocorreu");
         }
     }
 
