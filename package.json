@@ -1,0 +1,19 @@
+{
+  "name": "kimilia-bot",
+  "version": "0.0.1-dev",
+  "description": "Kimilia, Uma bot incrivel com muitos comandos para seu servidor do discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-code15/Kimilia.git"
+  },
+  "author": "Dan™#4020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-code15/Kimilia/issues"
+  },
+  "homepage": "https://github.com/Daniel-code15/Kimilia#readme"
+}
