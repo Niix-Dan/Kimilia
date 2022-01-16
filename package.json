@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Daniel-code15/Kimilia#readme",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "pixapi": "^1.1.8"
+    "pixapi": "^1.1.8",
+    "request": "^2.88.2"
   }
 }
