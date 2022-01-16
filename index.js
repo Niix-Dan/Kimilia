@@ -1,7 +1,7 @@
 !(async () => {
     const Discord = require("discord.js");
     const client = new Discord.Client({
-        intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_PRESENCES"]
+        intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_PRESENCES", "GUILD_MESSAGE_REACTIONS"]
     });
     const config = require("./config.json");
     const Module = event => require(`./Modulos/${event}.js`);
@@ -10,6 +10,7 @@
     client.cmdsDir = __dirname + "/Comandos";
     client.commands = new Discord.Collection();
     client.config = config;
+    client.games = new Set();
 
     client.on("ready", () => Module("ready")(client));
     client.on("ready", () => Util("loadCmds")(client));
