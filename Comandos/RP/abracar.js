@@ -6,7 +6,7 @@ module.exports = {
     aliases: ["abraçar", "hug", "abraço", "abraco"],
     description: "Dê um abraço quentinho.",
     async execute(client, message, args) {
-        let user = message.mentions.members.first() || message.guild.members.cache.get(args.join(" ")) || message.author;
+        let user = message.mentions.members.first() || message.guild.members.cache.get(args.join(" "));
         if(!user) return message.reply("**:x: | Mencione alguém para dar um abraço!**");
 
         request.get("https://purrbot.site/api/img/sfw/hug/gif", async (err, resp, body) => {
